@@ -134,19 +134,25 @@ Bootstrap resampling is used to estimate a **confidence interval for the F1 scor
 
 ## Project Structure
 
-fake-real-news-ml
+```
+fake-real-news-ml/
 
-data  
- └ raw  
-    ├ Fake.csv  
-    └ True.csv  
+├── data/
+│   └── raw/
+│       ├── Fake.csv
+│       └── True.csv
 
-notebooks  
- └ fake_real_news_model.ipynb  
+├── Fake News Detection.ipynb
+├── README.md
+├── bootstrap_confidence_intervals.txt
+├── confusion_matrix_final_model.png
+├── final_classification_report.txt
+├── final_project_summary.txt
+├── ranked_model_results.csv
+├── roc_curve_final_model.png
+└── top_terms_interpretability.txt
+```
 
-README.md
-
----
 
 ## How to Run the Project
 
