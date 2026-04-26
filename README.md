@@ -10,6 +10,45 @@ The project focuses on classical machine learning methods combined with statisti
 
 ---
 
+## Streamlit Web App
+
+This repository includes a Streamlit web application for interactive fake news prediction.
+
+The app includes these pages:
+
+- Home
+- Interactive Prediction
+- Model Performance
+- Confusion Matrix
+- Classification Report
+- Bootstrap Confidence Intervals
+- Submission Information
+
+Run locally:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+For public deployment, use Streamlit Community Cloud:
+
+1. Go to `https://share.streamlit.io`.
+2. Create a new app from this GitHub repository.
+3. Select branch `main`.
+4. Set the main file path to `app.py`.
+5. Select Python `3.10`.
+6. Deploy and share the generated `streamlit.app` URL.
+
+Prediction requires `final_model.pkl` in the repository root. If it is missing, the app will still open and show a clear warning. Export the trained model from the notebook with:
+
+```python
+import joblib
+joblib.dump(best_model, "final_model.pkl")
+```
+
+---
+
 ## Problem Description
 
 The goal of this project is to automatically determine whether a news article is real or fake using machine learning.
