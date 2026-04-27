@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-streamlit
-pandas
-numpy
-scikit-learn
-joblib
-matplotlib
-pillow
-=======
 streamlit==1.56.0
 pandas==2.3.3
 numpy==2.2.6
 scikit-learn==1.7.2
 joblib==1.5.3
 pillow==12.2.0
->>>>>>> 510ae17251100941bd544b6b6caf5502af649133
