@@ -1,5 +1,7 @@
-flask
+streamlit
 pandas
+numpy
 scikit-learn
 joblib
-gunicorn
+matplotlib
+pillow

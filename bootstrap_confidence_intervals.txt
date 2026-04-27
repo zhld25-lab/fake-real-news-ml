@@ -1,7 +1,0 @@
-
-Best Model: Stacking
-
-Bootstrap 300 rounds - 95% Confidence Intervals
-
-Accuracy : mean=0.9994, 95% CI=(0.9989, 0.9999)
-F1 Score : mean=0.9994, 95% CI=(0.9988, 0.9999)

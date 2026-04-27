@@ -1,0 +1,6 @@
+Best Model: Linear SVM
+
+Bootstrap 300 rounds - 95% Confidence Intervals
+
+Accuracy: mean=0.9973, 95% CI=(0.9962, 0.9983)
+Macro F1: mean=0.9973, 95% CI=(0.9962, 0.9983)
